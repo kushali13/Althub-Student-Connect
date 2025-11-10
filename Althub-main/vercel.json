@@ -7,3 +7,7 @@
     { "src": "/(.*)", "dest": "/" }
   ]
 }
+{
+  "buildCommand": "CI=false npm run build",
+  "outputDirectory": "build"
+}
